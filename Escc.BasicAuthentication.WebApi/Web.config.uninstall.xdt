@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <appSettings>
+    <add key="apiuser" xdt:Transform="Remove" xdt:Locator="Match(key)" />
+    <add key="apikey" xdt:Transform="Remove" xdt:Locator="Match(key)" />
+  </appSettings>
+  <system.webServer>
+    <modules runAllManagedModulesForAllRequests="true">
+      <add name="BasicAuthHttpModule" xdt:Transform="Remove" xdt:Locator="Match(name)" />
+    </modules>
+  </system.webServer>
+</configuration>
