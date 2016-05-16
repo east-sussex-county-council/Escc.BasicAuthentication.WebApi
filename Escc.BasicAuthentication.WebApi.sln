@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escc.BasicAuthentication.WebApi", "Escc.BasicAuthentication.WebApi\Escc.BasicAuthentication.WebApi.csproj", "{6B02AF69-B4E9-4C6E-8DEE-A99BCCA7E995}"
 EndProject
 Project("{E09DD79A-4488-4AB9-8D3F-A7EEE78BF432}") = "Escc.BasicAuthentication.WebApi.NuGet", "Escc.BasicAuthentication.WebApi.NuGet\Escc.BasicAuthentication.WebApi.NuGet.nuproj", "{F96E5A3C-AEF8-4978-9BA3-8864239C7ACE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5981C2B-8599-4DC6-B47D-D1DE9B6D25B0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
